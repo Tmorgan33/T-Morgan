@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Marck Script', cursive;
+    color: red;
+}
+img {
+    float: right;
+    height: 200px;
+    width: 200px;
+}       
+body {
+    background: radial-gradient(aqua,yellow);
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: purple
+}
+.Terry {
+    font-family: 'Anton', sans-serif;
+    color: green;
+    background-color: pink;
+    position: absolute
+    height: 100px;
+    width: 50px;    
+  }  
+.Bandit {
+    font-family: 'Anton', sans-serif;background-color: powderblue;
+    color: darkblue;
+    position: absolute  
+    height: 100px;
+    width: 50px;
+  }
+table {
+    border-collapse: collapse;
+  }
+  th {
+    font-family: 'Shadows Into Light', cursive;
+    border: 5px solid #cecfd5;
+    padding: 10px 15px;   
+    color: green
+}
+  td {
+    font-family: 'Arvo', serif;
+    border: 5px solid #cecfd5;
+    padding: 10px 15px;   
+    color: blue 
+  }
+
+  
+  
