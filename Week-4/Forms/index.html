@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>form validation</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" ></script>
+            function validateForm() {
+              var x = document.forms["myForm"]["fname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+    </head>
+    <body>
+
+        <h1>Code Boot Camp @ theClubhouse Starter</h1>
+    </body>
+</html>
+
+
+
+
+
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
