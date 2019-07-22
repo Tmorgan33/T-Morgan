@@ -1,0 +1,12 @@
+Aries, Ram
+Taurus, Bull
+Gemini, Twins
+Cancer, Crab
+Leo, Lion
+Virgo, Virgin
+Libra, Scales
+Scorpio, Scorpion
+Sagittarius, Archer
+Capricorn, Goat
+Aquarius, Water Bearer
+Pisces, Fish
