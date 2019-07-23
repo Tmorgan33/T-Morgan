@@ -1,46 +1,20 @@
-<<<<<<< HEAD
-div {
-    background-color: green;
-    Height: 100%;
-    Width: 50%;
-    margin: 0;
-    }
-    p {
+
+p {
     font-size: 25px;
     color: red;
-    background-color: yellow;
-    display: block;
-    width: 30%;
-    border-radius: 100% 0 100px 50px;
+    }
+    .Rain {
+        font-size: 25px;
+        color: darkblue;
+        background-color: yellow;
     }
     .parent {
-        background-color: pink;
+        background-color: yellow;
+        width: 100%;
         position: relative
     }
     .child {
         background-color: aqua;
+        width: 100%;
         position: relative
-=======
-div {
-    background-color: green;
-    Height: 100%;
-    Width: 50%;
-    margin: 0;
-    }
-    p {
-    font-size: 25px;
-    color: red;
-    background-color: yellow;
-    display: block;
-    width: 30%;
-    border-radius: 100% 0 100px 50px;
-    }
-    .parent {
-        background-color: pink;
-        position: relative
-    }
-    .child {
-        background-color: aqua;
-        position: relative
->>>>>>> ce437ab9f5a88b6727e69bdf3ebc9f0dfe33ef2b
-    }
+p }
