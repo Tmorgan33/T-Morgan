@@ -7,6 +7,14 @@ submitbutton.onclick=function(){
 var month=slct1.value;
 var date=slct2.value;
 var input = month + " " + date;
-
-console.log (input);
 }
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    function loadDoc() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+        }
+    }
+};
+xhttp.open("GET", "db.txt", true);
+xhttp.send();

@@ -8,29 +8,21 @@ exports.server = function () {
 		var parUrl = url.parse(request.url, true);
         var filePath = '.' + parUrl.pathname;
         
-    if (filePath == './') {
-        filePath = './index.html';
-		} else {
-			filePath += ".html";
-		}
-
-		console.log('request ', request.url);
-
-		fs.readFile(filePath, function (err, content) {
-		
-			if(request.url === "/" || request.url === "/index.html") {
-				response.writeHead(200, { 'Content-Type': "text/html" });
-				response.end(content, 'utf-8');
-
-			} else {
-				fs.readFile('./404.html', function(error, content) {
-					response.writeHead(404, { 'Content-Type': "text/html" });
-					response.end(content, 'utf-8');
-				});
+		if (ParUrl.pathname == './') {
+			fs.readFile(db.txt, function (err, content){
+				res.writeHead(200, {'Content-Type': "text/html"});
+				res.end(content);
 			}
-		})
-	})
-    .listen(8080, function () {
-        console.log("Listening on Port: "+ 8080);
-    });
-}
+		)}
+
+		else if (parUrl.pathname === ('/db.js')){
+			fs.readreadFile(db.txt, function(err, content){
+				res.writeHead(200, {'content-Type': "text/html"});
+				res.end(content);
+			}
+		)}
+		server.listen(8080, function () {
+		console.log("Listening on Port: "+ 8080);
+		}
+	)}
+)}
