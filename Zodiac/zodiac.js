@@ -8,9 +8,11 @@ var month=slct1.value;
 var date=slct2.value;
 var input = month + " " + date;
 }
+var dataBase = loadDoc();
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
-    function loadDoc() {
+    function dataBase() {
+        // loadDoc() {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementById("demo").innerHTML = this.responseText;
         }
